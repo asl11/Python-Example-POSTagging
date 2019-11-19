@@ -1,0 +1,2 @@
+# Python-Example-POSTagging
+This python snippet demonstrates some of my coding ability. This code tags the parts of speech using a trigram and bigram viterbi model. That is, it uses the last three words/ their parts of speech to tag words with their parts of speech(Noun, Adjective, Verb, etc.) The training data was a news clip about the New Deal Legislation, and the test data that was tagged with more than 99% accuracy was the wikipedia entry on the New Deal.
