@@ -8,7 +8,8 @@ import types
 import time
 import math
 import copy
-#################   PASTE PROVIDED CODE HERE AS NEEDED   #################
+#################   BASIC PLOTTING FUNCTIONS BELOW   #################
+#################  SKIP TO LINE 288 FOR FORMAL CODE  #################
 def show():
     """
 	Do not use this function unless you have trouble with figures.
@@ -284,7 +285,7 @@ def default_to_regular(d):
     if isinstance(d, defaultdict):
         d = {k: default_to_regular(v) for k, v in d.items()}
     return d
-#####################  STUDENT CODE BELOW THIS LINE  #####################
+#####################  FORMAL CODE BEGINS  #####################
 class HMM:
     """
     Simple class to represent a Hidden Markov Model.
